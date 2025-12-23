@@ -1,0 +1,22 @@
+[project]
+name = "asciink"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "inky>=2.2.1",
+    "pillow>=12.0.0",
+    "pyte>=0.8.2",
+    "requests>=2.32.5",
+    "rich>=14.2.0",
+]
+
+[dependency-groups]
+dev = ["ruff>=0.14.8", "ty>=0.0.1a32"]
+
+[tool.uv]
+package = true
+
+[project.scripts]
+asciink = "asciink:main"
