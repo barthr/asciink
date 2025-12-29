@@ -1,3 +1,3 @@
-## asciink
+## ASCIInk
 
-asciink is a command line tool to display (ansi) terminal output on a Inky Impression screen
+ASCIINK is a command line tool to display (ansi) terminal output on a Inky Impression screen

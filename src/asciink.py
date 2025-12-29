@@ -16,52 +16,52 @@ from rich.text import Text
 from _image import InkyRenderer
 
 INKY_IMPRESSION_73_2025 = TerminalTheme(
-    foreground=(0, 0, 0),  # crisp on e-ink
-    background=(255, 255, 255),  # "paper" background
+    foreground=(0, 0, 0),
+    background=(255, 255, 255),
     normal=[
-        (0, 0, 0),  # black
-        (160, 32, 32),  # red     (#a02020)
-        (96, 128, 80),  # green   (#608050)
-        (240, 224, 80),  # yellow  (#f0e050)
-        (80, 128, 184),  # blue    (#5080b8)
-        (160, 32, 32),  # magenta -> map to red (no magenta on Spectra 6)
-        (80, 128, 184),  # cyan    -> map to blue (no cyan on Spectra 6)
-        (255, 255, 255),  # white
+        (0, 0, 0),
+        (160, 32, 32),
+        (96, 128, 80),
+        (240, 224, 80),
+        (80, 128, 184),
+        (160, 32, 32),
+        (80, 128, 184),
+        (255, 255, 255),
     ],
     bright=[
-        (0, 0, 0),  # bright black -> black (avoid dithery greys)
-        (160, 32, 32),  # bright red   -> same
-        (96, 128, 80),  # bright green -> same
-        (240, 224, 80),  # bright yellow-> same
-        (80, 128, 184),  # bright blue  -> same
-        (160, 32, 32),  # bright magenta -> red
-        (80, 128, 184),  # bright cyan    -> blue
-        (255, 255, 255),  # bright white   -> white
+        (0, 0, 0),
+        (160, 32, 32),
+        (96, 128, 80),
+        (240, 224, 80),
+        (80, 128, 184),
+        (160, 32, 32),
+        (80, 128, 184),
+        (255, 255, 255),
     ],
 )
 
 INKY_IMPRESSION_73_2025_DARK = TerminalTheme(
-    foreground=(255, 255, 255),  # white text
-    background=(0, 0, 0),  # black “paper”
+    foreground=(255, 255, 255),
+    background=(0, 0, 0),
     normal=[
-        (0, 0, 0),  # black
-        (160, 32, 32),  # red     (muted to quantize cleanly)
-        (96, 128, 80),  # green
-        (240, 224, 80),  # yellow
-        (80, 128, 184),  # blue
-        (160, 32, 32),  # magenta -> red (no magenta)
-        (80, 128, 184),  # cyan    -> blue (no cyan)
-        (255, 255, 255),  # white
+        (0, 0, 0),
+        (160, 32, 32),
+        (96, 128, 80),
+        (240, 224, 80),
+        (80, 128, 184),
+        (160, 32, 32),
+        (80, 128, 184),
+        (255, 255, 255),
     ],
     bright=[
-        (0, 0, 0),  # bright black -> black (avoid “grey”)
-        (160, 32, 32),  # bright red   -> same
-        (96, 128, 80),  # bright green -> same
-        (240, 224, 80),  # bright yellow-> same
-        (80, 128, 184),  # bright blue  -> same
-        (160, 32, 32),  # bright magenta -> red
-        (80, 128, 184),  # bright cyan    -> blue
-        (255, 255, 255),  # bright white   -> white
+        (0, 0, 0),
+        (160, 32, 32),
+        (96, 128, 80),
+        (240, 224, 80),
+        (80, 128, 184),
+        (160, 32, 32),
+        (80, 128, 184),
+        (255, 255, 255),
     ],
 )
 
